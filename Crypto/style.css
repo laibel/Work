@@ -1,0 +1,417 @@
+/* изменение цвета полосы прокрутки */
+::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+}
+
+/* изменение цвета заполнения полосы прокрутки */
+::-webkit-scrollbar-thumb {
+    background-color: #00AD43;
+}
+
+/* изменение цвета при наведении на полосу прокрутки */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body>* {
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.header-img {
+    max-width: 124px;
+    max-height: 40px;
+}
+
+ul {
+    margin: 0;
+}
+
+.background-video {
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.back-video {
+    max-width: 99.99%;
+    max-height: 50%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.header-items {
+    justify-content: space-between;
+}
+
+.nav-list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.margin-bottom {
+    margin-bottom: 175px;
+}
+
+.section1 {
+    margin-bottom: 300px;
+}
+
+.section1-h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+    /* or 130% */
+
+    color: #FFFFFF;
+}
+
+.section1-h3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 160% */
+    color: #FAFAFA;
+}
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.bth {
+    padding: 10px;
+    border: 3px solid rgb(68, 109, 7);
+    border-radius: 12px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height, or 192% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.bth:not(:last-child) {
+    margin-right: 15px;
+}
+
+.main-img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.main-btn {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.main-btn:hover {
+    color: #FFFFFF;
+    transition: 0.4s;
+    border-color: #00AD43;
+    background-color: #00AD43;
+}
+
+.section2-text {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section2-h2 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    /* or 130% */
+
+
+    color: #00AD43;
+}
+
+.section2-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 160% */
+    color: #030303;
+}
+
+.section2 {
+    margin-bottom: 315px;
+}
+
+.section3 {
+    margin-bottom: 200px;
+}
+
+.section3-h2 {
+    margin-bottom: 77px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #00AD43;
+}
+
+.section3-img {
+    max-width: 40%;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.section3-h4 {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #00AD43;
+}
+
+.section3-h4:last-child {
+    margin-bottom: 44px;
+}
+
+.section3-text {
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #030303;
+}
+
+.section3-btn {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 9px 30px;
+    background-color: #00AD43;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.cards {
+    justify-content: space-between;
+}
+
+.section4 {
+    background-color: black;
+    margin-bottom: 150px;
+}
+
+.img-width {
+    height: 70vh;
+    width: 40vh;
+}
+
+.section4-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 23px;
+
+    color: #FAFAFA;
+}
+
+.section4-app {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 18px;
+
+    color: #00AD43;
+}
+
+.section5 {
+    margin-bottom: 400px;
+}
+
+.text-decoration {
+    text-decoration-color: green;
+}
+
+.back-img {
+    min-height: 390px;
+    background-image: url("img/HomeTeam.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section5-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.section5-text1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+}
+
+.section5-btn {
+    max-width: 31%;
+    color: black;
+    font-size: 1.4em;
+    background-color: #00AD43;
+    border: 0;
+    color: #FAFAFA;
+}
+
+.section5-btn:hover {
+    color: #00AD43;
+    background-color: white;
+    border: 1px solid #00AD43;
+    transition: 0.4s;
+    font-size: 1.9em;
+    max-width: 40%;
+}
+
+.section5-padding {
+    padding-left: 50px;
+}
+
+.section6 {
+    margin-bottom: 300px;
+}
+
+.section7{
+    margin-bottom: 200px;
+}
+.section7-data {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.08px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.section7-h4 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #00AD43;
+}
+
+.section7-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.08px;
+    line-height: 23px;
+    color: #000000;
+}
+.footer-text{
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.08px;
+    line-height: 23px;
+    color: white;
+}
+.footer-h6{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 23px;
+    color: white;
+}
+.footer-links{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+.footer-links:hover{
+    color: #00AD43;
+    transition: 0.4s;
+}
+.cooperating{
+    margin-bottom: 100px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 23px;
+    color: white;
+}

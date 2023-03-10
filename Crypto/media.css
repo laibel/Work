@@ -1,0 +1,125 @@
+@media (max-width:1509px){
+    .background-video{
+        display: none;
+    }
+    .header{
+        background-color: black;
+        margin-bottom: 50px;
+    }
+    .margin-bottom{
+        margin-bottom: 100px;
+    }
+    .section2-text{
+        max-width: 100%;
+    }
+    .section2-media-col-2{
+        width: 472px;
+        height: 327px;
+    }
+    .section2{
+        margin-bottom: 100px;
+    }
+    .section3-btn{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .section4-app{
+        font-size: 1.2em;
+    }
+    .section4-h1{
+        font-size: 1.9em;
+    }
+    .section4-text{
+        font-size: 1em;
+    }
+    .section5-btn{
+        max-width: 43%;
+    }
+    .back-img{
+     background-position: center center;   
+    }
+    .section5{
+        margin-bottom: 100px;
+    }
+    .section6{
+        margin-bottom: 100px;
+    }
+    .section7-btn{
+        margin: 0 auto;
+        padding: 10px 40px;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 1154px){
+    .section1-media-padding{
+        padding-top: 100px;
+    }
+    .section2-media-col-2{
+        width: 430px;
+        height: 350px;
+    }
+    .section2-media-container{
+        max-width: 950px;
+    }
+    .section3-media-row-center{
+        justify-content: center;
+    }
+    .cards:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .section4-h1{
+        font-size: 1.3em;
+    }
+    .section4-text{
+        max-width: 80%;
+        align-items: start;
+    }
+    .section4-ul{
+        padding: 0;        
+    }
+    .section4-li{
+        list-style: disc;
+    }
+}
+@media (max-width: 390px) {
+    .hidden{
+        display: none;
+    }
+    .img-width{
+        display: none;
+    }
+    .section4{
+        padding: 50px 0;
+        
+        margin: 0;
+    }
+    .section5-padding{
+        padding-left: 10px;
+    }
+    .back-img{
+        margin-bottom: 30px;
+    }
+    .section5-btn{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .cards{
+        border: 2px solid gray;
+        padding: 0;
+        padding-bottom: 29px;
+        border-radius: 18px;
+    }
+    .img-fluid{
+        border-radius: 15px;
+    }
+    .section2-media-col-2{
+        width: 290px;
+        height: 356px;
+    }
+    .cooperating {
+        font-size: 20px;
+        text-align: center;
+    }
+}
